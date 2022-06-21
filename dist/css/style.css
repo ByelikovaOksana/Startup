@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font: 400 14px/1.25 "Roboto Slab", "Times New Roman" serif;
+  color: #92d514; }
+  body a {
+    text-decoration: none;
+    color: #000;
+    transition: .4s; }
+  body input {
+    outline: none; }
+  body table {
+    border-collapse: collapse; }
+  body .wrapper {
+    overflow: hidden;
+    position: relative; }
+  body .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px; }
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+
+/*# sourceMappingURL=style.css.map*/
